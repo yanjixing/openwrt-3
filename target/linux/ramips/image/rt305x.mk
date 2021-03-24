@@ -39,7 +39,7 @@ TARGET_DEVICES += 3g150b
 
 define Device/3g300m
   DTS := 3G300M
-  IMAGE_SIZE := $(ralink_default_fw_size_4M)
+  IMAGE_SIZE := $(ralink_default_fw_size_8M)
   UIMAGE_NAME := 3G150M_SPI Kernel Image
   DEVICE_TITLE := Tenda 3G300M
   DEVICE_PACKAGES := kmod-usb-core kmod-usb-dwc2 kmod-usb-ledtrig-usbport
