@@ -404,7 +404,7 @@ TARGET_DEVICES += na930
 define Device/oy-0001
   DTS := OY-0001
   IMAGE_SIZE := $(ralink_default_fw_size_16M)
-  DEVICE_TITLE := Oh Yeah OY-0001
+  DEVICE_TITLE := BL-845R
 endef
 TARGET_DEVICES += oy-0001
 
