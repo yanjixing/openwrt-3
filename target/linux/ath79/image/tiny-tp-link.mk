@@ -338,10 +338,11 @@ endef
 TARGET_DEVICES += tplink_tl-wr841-v5
 
 define Device/tplink_tl-wr841-v7
-  $(Device/tplink-4m)
+  $(Device/tplink-16m)
   SOC := ar7241
   DEVICE_MODEL := TL-WR841N/ND
   DEVICE_VARIANT := v7
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ledtrig-usbport
   TPLINK_HWID := 0x08410007
   SUPPORTED_DEVICES += tl-wr841n-v7
 endef
