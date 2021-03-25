@@ -543,6 +543,7 @@ define Device/tl-wr841-v7
   DEVICE_TITLE := TP-LINK TL-WR841N/ND v7
   BOARDNAME := TL-WR841N-v7
   DEVICE_PROFILE := TLWR841
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ledtrig-usbport
   TPLINK_HWID := 0x08410007
 endef
 TARGET_DEVICES += tl-wr841-v7
