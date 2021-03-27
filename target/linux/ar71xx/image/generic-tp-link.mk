@@ -463,7 +463,7 @@ endef
 TARGET_DEVICES += tl-wr810n-v2
 
 define Device/tl-wr842n-v1
-  $(Device/tplink-8m)
+  $(Device/tplink-16m)
   DEVICE_TITLE := TP-LINK TL-WR842N/ND v1
   DEVICE_PACKAGES := kmod-usb-core kmod-usb2 kmod-usb-ledtrig-usbport
   BOARDNAME := TL-MR3420
