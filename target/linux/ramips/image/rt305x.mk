@@ -1009,7 +1009,7 @@ TARGET_DEVICES += tenda_3g150b
 
 define Device/tenda_3g300m
   SOC := rt3052
-  IMAGE_SIZE := 3776k
+  IMAGE_SIZE := 7872k
   UIMAGE_NAME := 3G150M_SPI Kernel Image
   DEVICE_VENDOR := Tenda
   DEVICE_MODEL := 3G300M
